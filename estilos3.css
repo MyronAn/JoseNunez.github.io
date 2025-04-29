@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #0056b3;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .logo-img {
+    height: 60px;
+  }
+  
+  .slogan {
+    color: #e0e0e0;
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  }
+  .menu a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-shadow: 1px 1px 2px #000;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .menu a.active {
+    background-color: white;
+    color: #0056b3;
+    border-radius: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: #fff;
+    color: #0056b3;
+    border-radius: 5px;
+  }
+  
+  .servicios-section {
+    padding: 50px 20px;
+  } 
+
+  .servicios-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 100, 0.3);
+    font-size: 2.5rem;
+    color: #003366;
+  }
+  
+  .servicio-card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .servicio-card h5 {
+    font-size: 1.3rem;
+    color: #0056b3;
+    text-shadow: 1px 1px 2px rgba(0, 0, 100, 0.2);
+  }
+  
+  .servicio-card p {
+    color: #333;
+  }
+
+  .servicio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  .footer {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  }

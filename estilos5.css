@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0056b3;
+    padding: 20px;
+}
+
+.logo-imp {
+    height: 90px;
+    display: block;
+  }
+
+.header .logo h1 {
+    color: #fff;
+}
+
+.header .slogan {
+    color: #b2ebf2;
+}
+
+.menu a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background: #b2ebf2;
+    padding: 50px 0;
+}
+
+.services-section .service-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.services-section .service-card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+}
+
+form .form-control {
+    border-radius: 8px;
+}
